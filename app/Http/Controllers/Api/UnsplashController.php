@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class UnsplashController extends Controller
 {
 	public function likeOthersPhoto(){
+		return 'ase';
 		return view('frontend.unsplash.unsplash-like');
 	}
 }

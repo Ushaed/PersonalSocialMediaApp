@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('frontend.unsplash.unsplash-like');
 });
-Route::get('unsplash/like','Api\UnsplashController@likeOthersPhoto')->name('unsplash.like');
+Route::get('/unsplash/like','Api\UnsplashController@likeOthersPhoto')->name('unsplash.like');
 
